@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&display=swap');
+
+:root {
+    --primary-color: #E3E7F2;
+    --secondary-color: #616C94;
+    --accent1-color: #E3655B;
+    --accent2-color: #FED99B;
+
+    --heading-font: Cinzel, serif;
+    --paragraph-font: Verdana, Helvetica, sans-serif;
+
+    --headline-color-on-white: #1a2025;  /* headlines on a white background */ 
+    --headline-color-on-color: #616C94; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #040669; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: #616C94; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #FED99B  ;
+    --nav-link-color: #5091C7;
+    --nav-background-color: #E3E7F2;
+    --nav-hover-link-color: rgb(255, 255, 255);
+    --nav-hover-background-color: #5091C7;
+}
+* {
+    width: 800px;
+}
+.logo {
+    width: 200px;
+}
+h1, h2 {
+    color: #1a2025;
+    font-family: Cinzel, serif;
+    background-color: #616C94;
+}
+p {
+    font-family: Verdana, Helvetica, sans-serif;
+    color:#040669;
+    border: black;
+}
+footer a {
+    text-decoration: none;
+}
+.hero {
+    position: relative;
+    display: block;
+}
+.hero article{
+    position: absolute;
+}
+.hero h1 {
+    position: absolute;
+    text-align: center;
+    color: white;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.hero article img {
+    float: right;
+    width: 200px;
+    text-align: center;
+}
+section {
+    height: auto;
+}
+footer nav img {
+    width: 50px;
+}
