@@ -61,7 +61,7 @@ nav a {
 }
 .hero article img {
     float: right; opacity: 1;
-    width: 200px; padding: 10px; margin: auto;
+    width: 200px; padding: 10px; margin: auto; align-items: ;
 }
 section {
     height: auto;
