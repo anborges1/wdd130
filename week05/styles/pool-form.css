@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 900px;
+    align-content: center;
+}
+body {
+    font-family: Cinzel, Helvetica, sans-serif;
+
+}
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+h1 {
+    font-family: Cinzel;
+    font-weight: bold; text-align: center;
+}
+form {
+    width: 650px;
+    margin: 0 auto; padding: 1rem; border: 1px solid gray;
+    border-radius: .5rem;
+    background-color: azure;
+    display: grid;
+}
+fieldset{
+    display: grid;
+    grid-gap: .5rem; margin: 1rem; border: 1px solid steelblue;
+    padding: 1rem;
+}
+legend{
+    padding: 1rem; color:navy; font-size: large;
+}
+label, input, button, select, textarea {
+    font-family: Verdana, Tahoma, sans-serif;
+    color: #E3655B;
+}
+label {
+    text-align: right; padding-right: 1rem;
+}
+input, select, textarea {
+    font-size: 16px;padding: .5rem;
+}
+input [type="checkbox"]{
+    width: 22px; height: 22px; vertical-align: bottom;
+}
+button{
+    margin: 1rem;
+    background-color: azure; color:#616C94; border-radius: .5rem; padding: .75rem; font-size: 1.2rem;
+}
+button:hover {
+    opacity: .7;
+    transform: scale(1.1);
+    background-color: darkgreen; color:aliceblue;
+}
+footer{
+    margin: 1rem auto;
+    width: 650px; text-align: center;font-size: .8em; color: #777 ;border-top: 1px solid #ccc;
+}
+.form-item{
+    display: grid;align-items: center;
+}
+.column1{
+    grid-template-columns: 3fr 1fr;
+    margin: .5rem auto;
+}
+.column2{
+    grid-template-columns: 1fr 2fr;
+    margin: .5rem auto;
+}
