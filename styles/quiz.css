@@ -51,7 +51,7 @@ footer{
     margin: 1rem auto;
     width: 650px; text-align: center;font-size: .8em; color: #777 ;border-top: 1rem;
 }
-strong {
+div {
     align-items: center; text-align: center; background-color: dimgrey; border: 1px solid black;
     padding: 1.1rem; margin: 10px;
     color:white; font-family: 'Times New Roman', Times, serif; font-size: small; width: 80%;
