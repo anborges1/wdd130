@@ -44,7 +44,7 @@ button{
 }
 button:hover {
     opacity: .7;
-    transform: scale(1.);
+    transform: scale(1.1);
     background-color: blue; color:aliceblue;
 }
 footer{
