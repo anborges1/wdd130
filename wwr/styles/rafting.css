@@ -173,7 +173,7 @@ iframe {
     grid-area: 3/1/4/5; width: 80%;
     margin: 0 auto; padding: 1rem; border: 1px solid gray;
     border-radius: .5rem;
-    background-color: azure;
+    background-color: #E3E7F2;
     display: grid;
 }
 fieldset{
