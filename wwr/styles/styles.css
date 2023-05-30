@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&display=swap');
+
+
+#content {
+    max-width: 900px; border: 1px solid gray;
+    max-height: 1600px; margin: 5px auto;
+}
+header {
+    display: grid;
+    grid-template-columns: 180px auto;
+}
+nav {
+    display: flex; justify-content: space-evenly; align-items: center; justify-self: center; align-self: center;
+    background-color: #5091C7;
+    padding: 5px; font-weight:bold; width:80%; opacity: 0.8; height: 55px;
+}
+nav a {
+    color: white; text-decoration: none; padding:10px; font-family: Cinzel, Helvetica, sans-serif;
+
+}
+.logo {
+    width: 100%;
+}
+#logo-link {
+    padding-top: 5px; justify-self: center; align-self: center;
+}
+nav a:hover {
+    background-color: #5091C7;
+    color: #040669;
+}
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -185px;
+}
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 140px; padding: 0;
+}
+#hero-msg h4 {
+    color: white; font-size: 15px; padding: 1px;
+}
+#hero-img {
+    width: 100%;
+}
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+    color: white; padding: 0px;
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+.card-img, .mountains {
+    width: 100%;
+}
+.rivers-card {
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+.camping-card {
+    grid-column: 5/7;
+    grid-row: 2/3;
+}
+.rapids-card {
+    grid-column: 8/10;
+    grid-row: 2/3;
+}
+.home-title, h2 {
+    font-family: Cinzel, serif;
+    font-size: 1.45em;
+    margin-top: 1px; padding: 0px;
+}
+.mountains {
+    width: 100%;
+    grid-column: 2/7;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 5px auto;
+} 
+.button-box {
+    text-align: center;
+}
+main section {
+    text-align: center;
+}
+main section img {
+    box-sizing: border-box;
+}
+#background {
+    height: 500px;
+    background-color: #FED99B;
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
+.mountains{
+    width: 110%;
+}
+body {
+    font-family: Verdana, Helvetica, sans-serif;
+    Margin: 0;
+    padding: 0;
+}
+p {
+    margin: 0;
+}
+.book, .join {
+    background-color: rgb(255, 255, 255); opacity: .6;
+    color: black;
+    text-decoration: none;
+    padding: 10px 10px;
+    margin-top: 20px;
+    font-size: 18px;
+    border-radius: 5px;
+
+}
+.book:hover, .join:hover {
+    background-color: #5091C7;
+    color:rgb(255, 255, 255);
+}
+.msg {
+    background-color:#4e4e4d;
+    font-size: 1.2em;
+    border:#1a2025;
+    line-height: .8em;
+    padding: 20px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.icon {
+    padding-top: 10px;
+}
+footer {
+    background-color: #5091C7;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.home-title {
+    color: black;
+}
+h4 {
+    color:#1a2025;
+}
+.msg h2 {
+    font-family: Cinzel, serif;
+    color: white;
+    font-size: 1em;
+}
+.msg p {
+    color: white;
+    font-size: .9em;
+    padding-bottom: 15px;
+}
+footer {
+    display: grid;
+    grid-template-columns: 1fr 240px; width: 90%;
+    background-color: #E3E7F2; border: 1px solid gray;
+}
+.sociallinks {
+    display: flex; justify-content: center;
+    background-color: #E3E7F2;
+    padding: 1px; width:100%; opacity: 0.8; max-height: 50px;
+}
+.sociallinks a {
+    padding: 1px;background-color: #E3E7F2; border:none;
+}
+.sociallinks img {
+    width: 40px; max-height: 40px;
+}
+.icon {
+    width: 80px;
+}
+
+footer h3 a:hover {
+    text-decoration: underline;
+}
+.card-img {
+    border: 10px solid #FED99B;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+.river-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    border-color: #040669;
+}
+#river-page {
+    grid-column: 1/13;
+    grid-row: 1/2;
+}
+.salmon-img {
+    grid-column: 9/13;
+    grid-row: 2/5;
+    width: 100%;
+}
+.salmon-t {
+    grid-column: 1/8;
+    grid-row: 2/5;
+    align-self: center;
+    justify-content: left;
+    font-size:large
+}
+.gray-ca {
+    grid-column: 1/5;
+    grid-row: 6/9;
+    width: 100%;
+}
+.gray-t {
+    grid-column: 6/13;
+    grid-row: 6/9;
+    align-self: center;
+    justify-content: right;
+    font-size: large;
+}
+.grand-ca {
+    grid-column: 9/13;
+    grid-row: 10/13;
+    width: 100%;
+}
+.grand-t {
+    grid-column: 1/8;
+    grid-row: 10/13;
+    align-self: center;
+    justify-content: left;
+    font-size: large;
+}
+#p {
+    font-size: .9em;
+}
+#h {
+    font-size: larger;
+}
+
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
