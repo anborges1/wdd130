@@ -139,14 +139,6 @@ p {
 .icon {
     padding-top: 10px;
 }
-footer {
-    background-color: #5091C7;
-    padding: 25px 50px;
-    margin-top: 200px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
 .home-title {
     color: black;
 }
@@ -164,12 +156,16 @@ h4 {
     padding-bottom: 15px;
 }
 footer {
-    display: grid;
-    grid-template-columns: 1fr 240px; width: 90%;
+    display: grid;  margin-top: 150px; align-items: center; padding: 25px 0px 25px;
+    grid-template-columns: 1fr 1fr 1fr 1fr; width: 100%;
     background-color: #E3E7F2; border: 1px solid gray;
 }
+footer p{grid-area: 1/1/2/4;}
+#fl{grid-area: 2/1/3/2; text-align: center; font-weight: bold; text-decoration: underline;color:#040669}
+#fln{grid-area: 2/2/3/3; text-align: center; font-weight: bold; text-decoration: underline;color:#040669}
+#flk{grid-area: 2/3/3/4; text-align: center; font-weight: bold; text-decoration: underline;color:#040669}
 .sociallinks {
-    display: flex; justify-content: center;
+    display: flex; justify-content:space-around; grid-area: 1/4/3/5;
     background-color: #E3E7F2;
     padding: 1px; width:100%; opacity: 0.8; max-height: 50px;
 }
@@ -177,14 +173,10 @@ footer {
     padding: 1px;background-color: #E3E7F2; border:none;
 }
 .sociallinks img {
-    width: 40px; max-height: 40px;
+    width: 50px; max-height: 50px;
 }
 .icon {
     width: 80px;
-}
-
-footer h3 a:hover {
-    text-decoration: underline;
 }
 .card-img {
     border: 10px solid #FED99B;
